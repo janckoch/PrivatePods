@@ -7,8 +7,10 @@ Pod::Spec.new do |s|
   s.authors  = { 'Jan Koch' => 'j.koch@neusta.de' }
   s.social_media_url = "https://twitter.com/_jankoch"
   s.platform = :ios
-  s.source   = { :git => 'https://github.com/janckoch/JKRoundSlider.git', :tag => '0.2' }
+  s.source   = { :git => 'https://github.com/janckoch/JKRoundSlider.git', :branch => 'dev' }
   s.source_files = 'JKRoundControls'
   s.requires_arc = true
   s.ios.deployment_target = '7.0'
 end
+
+updateState
